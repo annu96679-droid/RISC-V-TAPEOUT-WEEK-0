@@ -40,21 +40,25 @@ This is the core of the image. The term "Synthesis" is the process of using auto
 
 **Gate Level Netlist (synth P&R)**
 
-What it is: A detailed netlist for the digital logic that was described in the main RTL. It consists of standard cells (basic logic gates like AND, OR, flip-flops) from the technology library.
+ A detailed netlist for the digital logic that was described in the main RTL. It consists of standard cells (basic logic gates like AND, OR, flip-flops) from the technology library.
 
 (synth P&R) means this netlist is the input for the next major stage: Place and Route (P&R), where the gates are physically arranged on the silicon die and the wires connecting them are drawn.
 
 **Macros (synth RTL)**
 
-What it is: "Macros" typically refer to large, pre-designed blocks with a fixed layout, such as Memory (SRAM, DRAM) or Processor Cores.
+ "Macros" typically refer to large, pre-designed blocks with a fixed layout, such as Memory (SRAM, DRAM) or Processor Cores.
 
 (synth RTL) indicates that these macros are synthesized from their own RTL descriptions separately. They are not broken down into standard cells like the main logic. They are generated or imported as complete, black-box units with a fixed physical interface and layout.
 
 **Analog IPs (func RTL)**
+ These are blocks that interface with the real, continuous world, such as Phase-Locked Loops (PLLs), Analog-to-Digital Converters (ADCs), or USB PHYs.
 
-What it is: These are blocks that interface with the real, continuous world, such as Phase-Locked Loops (PLLs), Analog-to-Digital Converters (ADCs), or USB PHYs.
+(func RTL) is crucial. It means that for the digital part of the chip to be simulated and verified, these analog blocks are represented by a Functional RTL model. 
 
-(func RTL) is crucial. It means that for the digital part of the chip to be simulated and verified, these analog blocks are represented by a Functional RTL model. T
+<img width="1541" height="553" alt="Screenshot 2025-09-18 233515" src="https://github.com/user-attachments/assets/b2fbaf98-2e26-4943-a08d-c04a68d2c499" />
+
+The diagram visualizes the Physical Design process. Its goal is to convert the logical description of the chip (the Gate-Level Netlist) into a precise, physical layout (a GDSII file) that defines exactly where every transistor, gate, and wire will be placed on the silicon die, ensuring it meets timing, power, and area constraints and is free of manufacturing rule violations.
+
 
 
 

@@ -109,16 +109,24 @@ O3 == O4: Verified again by Formal Equivalence Checking after place and route. T
 <details>
 	<summary>Day 1 - TOOLS INSTALLATION INSTRUCTIONS </summary>
  
-	# Day 1 - TOOLS INSTALLATION
+# Day 1 - TOOLS INSTALLATION
 
  **UBUNTU**
 
 Oracle virtual machine link 
-https://www.virtualbox.org/wiki/Downloads 
-System Check 
-6GB RAM, 50 GB HDD 
-Ubuntu 20.04+ 
-4vCPU 
+https://www.virtualbox.org/wiki/Downloads,
+System Check ,
+6GB RAM, 50 GB HDD, 
+Ubuntu 20.04+,
+4vCPU. 
+
+<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/abe92ec1-9636-47fa-9e67-89d99d780df0" />
+
+<img width="1282" height="903" alt="image" src="https://github.com/user-attachments/assets/51176deb-0192-4855-b1f1-6ec3b5aef2ba" />
+
+
+
+
 
  
 

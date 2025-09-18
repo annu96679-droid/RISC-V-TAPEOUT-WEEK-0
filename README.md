@@ -1,2 +1,2 @@
 <details>
-	<summary>Day 0 - Tools Installation </summary>
+	<summary>Day 0 - Getting started with VLSI SOC DESIGN and PLANNING </summary>

@@ -11,4 +11,5 @@ The Specification and High-Level Model (C Model)
 O1 —— Specs (C model): This is the starting point.
 
 Specs: These are the detailed requirements for the chip. They define what the chip must do (its function, performance, power consumption, etc.), but not how it will be implemented in hardware.
+
 C model: To validate the specifications, engineers first create a software model of the chip's functionality written in the C programming language. This is a high-level, behavioral model that is fast to simulate and easy to modify. It acts as the "golden reference" — a perfect software representation of what the chip should do.

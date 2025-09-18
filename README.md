@@ -7,6 +7,8 @@ An SoC is a single chip that integrates multiple components of a complete electr
 Instead of having separate chips for processor, memory, and peripherals → everything is put on one silicon die.
 In VLSI (Very-Large-Scale Integration), SoC design is one of the most advanced applications — because it combines digital, analog, memory, RF, and sometimes sensors into one chip.
 
+<img width="1712" height="217" alt="Screenshot 2025-09-18 233255" src="https://github.com/user-attachments/assets/8e22b9a8-0b96-4523-a3da-cb645ba6ed2c" />
+
 The Specification and High-Level Model (C Model)
 O1 —— Specs (C model): This is the starting point.
 

@@ -12,6 +12,16 @@ In VLSI (Very-Large-Scale Integration), SoC design is one of the most advanced a
 The Specification and High-Level Model (C Model)
 O1 —— Specs (C model): This is the starting point.
 
-Specs: These are the detailed requirements for the chip. They define what the chip must do (its function, performance, power consumption, etc.), but not how it will be implemented in hardware.
+Define Specifications: The desired features and performance of the chip are written down.
 
-C model: To validate the specifications, engineers first create a software model of the chip's functionality written in the C programming language. This is a high-level, behavioral model that is fast to simulate and easy to modify. It acts as the "golden reference" — a perfect software representation of what the chip should do.
+Create a C Model: A software model in C is written to emulate the chip's behavior based on the specs. This model is verified to be correct.
+
+Develop a C Testbench: Tests are written in C to put the model through its paces, generating inputs and checking outputs.
+
+RTL Design: An RTL architect translates the behavior of the C model into a hardware implementation described in Verilog.
+
+Functional Verification: The same C testbench from step 3 is used to test the Verilog RTL model. The outputs of the RTL model are compared to the known-good outputs from the C model.
+
+Iterate: If the outputs don't match, the RTL code (and potentially the C model or specs) is debugged and fixed until they do.
+
+Completion: Once verified, the RTL code is the "soft copy" of the hardware and is ready for the next stages of physical chip design.

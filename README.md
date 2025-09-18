@@ -35,5 +35,26 @@ Processor: The central processing unit (CPU) core(s).
 
 Peripherals/IPs: The surrounding functional blocks, such as memory controllers, USB interfaces, graphics processors (GPUs), etc.
 
+**The Outputs: The Results of Synthesis -->**
+This is the core of the image. The term "Synthesis" is the process of using automated Electronic Design Automation (EDA) tools to translate the high-level RTL code into a list of specific logic gates and their interconnections (a netlist), based on a chosen semiconductor technology library (e.g., a 3nm Samsung process).
+
+**Gate Level Netlist (synth P&R)**
+
+What it is: A detailed netlist for the digital logic that was described in the main RTL. It consists of standard cells (basic logic gates like AND, OR, flip-flops) from the technology library.
+
+(synth P&R) means this netlist is the input for the next major stage: Place and Route (P&R), where the gates are physically arranged on the silicon die and the wires connecting them are drawn.
+
+**Macros (synth RTL)**
+
+What it is: "Macros" typically refer to large, pre-designed blocks with a fixed layout, such as Memory (SRAM, DRAM) or Processor Cores.
+
+(synth RTL) indicates that these macros are synthesized from their own RTL descriptions separately. They are not broken down into standard cells like the main logic. They are generated or imported as complete, black-box units with a fixed physical interface and layout.
+
+**Analog IPs (func RTL)**
+
+What it is: These are blocks that interface with the real, continuous world, such as Phase-Locked Loops (PLLs), Analog-to-Digital Converters (ADCs), or USB PHYs.
+
+(func RTL) is crucial. It means that for the digital part of the chip to be simulated and verified, these analog blocks are represented by a Functional RTL model. T
+
 
 

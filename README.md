@@ -21,3 +21,5 @@ Using RTL (Verilog): The architect implements the design using a Hardware Descri
 Testbench is in C language: This is the most crucial part of the diagram for verification. A testbench is a setup that applies stimuli (test inputs) to a design and checks its outputs against expected results.
 
 The same C testbench that was used to verify the C model (O1) is now used to verify the RTL model (O2).
+
+Soft copy of the Hardware: This refers to the final, verified RTL code (the Verilog files). This is called a "soft copy" because it is the digital design files that fully describe the hardware. This RTL code is then sent through subsequent automated steps in the chip design flow (like Synthesis and Place & Route) to be turned into a physical "hard" chip.

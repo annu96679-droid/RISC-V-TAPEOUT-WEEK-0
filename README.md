@@ -23,3 +23,17 @@ Testbench is in C language: This is the most crucial part of the diagram for ver
 The same C testbench that was used to verify the C model (O1) is now used to verify the RTL model (O2).
 
 Soft copy of the Hardware: This refers to the final, verified RTL code (the Verilog files). This is called a "soft copy" because it is the digital design files that fully describe the hardware. This RTL code is then sent through subsequent automated steps in the chip design flow (like Synthesis and Place & Route) to be turned into a physical "hard" chip.
+
+<img width="1012" height="413" alt="Screenshot 2025-09-18 233313" src="https://github.com/user-attachments/assets/9aae355a-bde0-4fe4-b2d1-83efbe6cb606" />
+
+
+This diagram illustrates the physical implementation phase of chip design. It starts with the verified RTL code (the "soft copy" from the previous diagram) and shows the key components and steps involved in converting that abstract description into a detailed, technology-specific circuit model (a netlist).
+
+The diagram shows that the RTL code is organized into the main components of the System-on-a-Chip (SoC):
+
+Processor: The central processing unit (CPU) core(s).
+
+Peripherals/IPs: The surrounding functional blocks, such as memory controllers, USB interfaces, graphics processors (GPUs), etc.
+
+
+

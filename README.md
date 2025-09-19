@@ -141,6 +141,8 @@ Installed Ubuntu on [VirtualBox ].
 
 YOSYS is an open-source framework for RTL synthesis widely used in VLSI and FPGA flows.
 
+*INSTALLATION COMMANDS*
+
 ```bash
 **Update packages**
 sudo apt-get update
@@ -190,6 +192,25 @@ module hello;
   end
 endmodule
 ```
+<img width="1292" height="957" alt="image" src="https://github.com/user-attachments/assets/3f386e72-3365-4628-b8ce-ef0789abe5a6" />
+
+**GTKWAVE INSTALLATION**
+
+GTKWave is an open-source **waveform viewer** used in digital design.  
+When you simulate Verilog code using tools like **Icarus Verilog**, the simulation generates a **VCD (Value Change Dump)** file.  
+GTKWave lets you **visualize signal transitions** over time, which is very useful for debugging and verifying digital circuits.
+
+*INSTALLATION COMMANDS*
+
+
+```bash
+sudo apt-get update
+sudo apt install gtkwave
+```
+
+
+
+
 
 
 

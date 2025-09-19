@@ -163,6 +163,8 @@ make
 sudo make install
 ```
 
+<img width="911" height="936" alt="image" src="https://github.com/user-attachments/assets/999921ad-9a95-4c8a-8abb-d812c8a008f1" />
+
 
 
 

@@ -178,6 +178,7 @@ sudo apt-get update
 
 # Install Icarus Verilog
 sudo apt-get install -y iverilog
+```
 
 ```bash
 module hello;
@@ -186,6 +187,7 @@ module hello;
     $finish;
   end
 endmodule
+```
 
 
 

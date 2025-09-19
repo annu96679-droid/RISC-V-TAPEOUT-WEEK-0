@@ -208,6 +208,29 @@ sudo apt-get update
 sudo apt install gtkwave
 ```
 
+<img width="1158" height="1023" alt="image" src="https://github.com/user-attachments/assets/1d9392ee-cbb7-4e3b-98c7-2857d2bd63e7" />
+
+**Purpose of the setup**
+
+
+The tools (Yosys, Icarus Verilog, GTKWave) cover the main steps:
+
+**Yosys → synthesis**
+
+**Icarus Verilog → simulation**
+
+**GTKWave → waveform viewing & debugging**
+
+
+How to use it together (workflow overview)
+
+Write Verilog code → simulate it with Icarus Verilog → debug with GTKWave → synthesize with Yosys.
+
+This shows the big picture and connects the tools logically.
+
+
+
+
 
 
 

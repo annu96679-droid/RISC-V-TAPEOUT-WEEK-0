@@ -122,6 +122,17 @@ Ubuntu 20.04+,
 
 <img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/abe92ec1-9636-47fa-9e67-89d99d780df0" />
 
+<div align="center">
+
+| **Specification** 💻    | **Details** 📋          |
+|-----------------------|-----------------------|
+| **Operating System** 🐧  | Ubuntu 20.04+         |
+| **RAM** 💾               | 6GB                   |
+| **Storage** 💿           | 50GB HDD              |
+| **vCPUs** ⚡             | 4                     |
+
+</div>
+
 <img width="1282" height="903" alt="image" src="https://github.com/user-attachments/assets/51176deb-0192-4855-b1f1-6ec3b5aef2ba" />
 
 

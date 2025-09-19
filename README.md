@@ -112,8 +112,13 @@ O3 == O4: Verified again by Formal Equivalence Checking after place and route. T
 # Day 1 - TOOLS INSTALLATION
 
 
+**UBUNTU**
 
- **UBUNTU**
+I have set up Ubuntu as my development environment. This will be used for compiling, running, and experimenting with various tools related to my projects.
+
+Installed Ubuntu on [VirtualBox ].
+
+ 
 <div align="center">
 
 | **Specification**      | **Details**            |

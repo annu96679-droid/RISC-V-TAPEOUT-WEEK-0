@@ -116,12 +116,12 @@ O3 == O4: Verified again by Formal Equivalence Checking after place and route. T
  **UBUNTU**
 <div align="center">
 
-| **Specification** 💻    | **Details** 📋          |
+| **Specification**      | **Details**            |
 |-----------------------|-----------------------|
-| **Operating System** 🐧  | Ubuntu 20.04+         |
-| **RAM** 💾               | 6GB                   |
-| **Storage** 💿           | 50GB HDD              |
-| **vCPUs** ⚡             | 4                     |
+| **Operating System**    | Ubuntu 20.04+         |
+| **RAM**                 | 6GB                   |
+| **Storage**              | 50GB HDD              |
+| **vCPUs**              | 4                     |
 
 </div> 
 

@@ -141,6 +141,7 @@ Installed Ubuntu on [VirtualBox ].
 
 YOSYS is an open-source framework for RTL synthesis widely used in VLSI and FPGA flows.
 
+```bash
 **Update packages**
 sudo apt-get update
 
@@ -160,6 +161,8 @@ make
 
 **Install**
 sudo make install
+```
+
 
 
 

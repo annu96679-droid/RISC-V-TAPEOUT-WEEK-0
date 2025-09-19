@@ -180,6 +180,8 @@ sudo apt-get update
 sudo apt-get install -y iverilog
 ```
 
+Test with a Simple Verilog Program
+
 ```bash
 module hello;
   initial begin

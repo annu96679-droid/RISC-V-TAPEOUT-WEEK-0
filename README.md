@@ -166,6 +166,33 @@ sudo make install
 <img width="911" height="936" alt="image" src="https://github.com/user-attachments/assets/999921ad-9a95-4c8a-8abb-d812c8a008f1" />
 
 
+**IVERILOG SETUP**
+
+Icarus Verilog is an open-source Verilog simulation and synthesis tool widely used in digital design and FPGA development.
+
+**Icarus Verilog Installation**
+
+```bash
+# Update package lists
+sudo apt-get update
+
+# Install Icarus Verilog
+sudo apt-get install -y iverilog
+
+```bash
+module hello;
+  initial begin
+    $display("Hello, Verilog!");
+    $finish;
+  end
+endmodule
+
+
+
+
+
+
+
 
 
 

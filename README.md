@@ -137,6 +137,35 @@ Installed Ubuntu on [VirtualBox ].
 <img width="1282" height="903" alt="image" src="https://github.com/user-attachments/assets/51176deb-0192-4855-b1f1-6ec3b5aef2ba" />
 
 
+**YOSYS SETUP**
+
+YOSYS is an open-source framework for RTL synthesis widely used in VLSI and FPGA flows.
+
+# Update packages
+sudo apt-get update
+
+# Clone Yosys source
+git clone https://github.com/YosysHQ/yosys.git
+cd yosys
+
+# Install required dependencies
+sudo apt-get install -y build-essential clang bison flex \
+  libreadline-dev gawk tcl-dev libffi-dev git \
+  graphviz xdot pkg-config python3 libboost-system-dev \
+  libboost-python-dev libboost-filesystem-dev zlib1g-dev
+
+# Configure and build
+make config-gcc
+make 
+
+# Install
+sudo make install
+
+
+
+
+
+
 
 
 
